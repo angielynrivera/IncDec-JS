@@ -69,3 +69,19 @@ input {
   color: greenyellow;
   font-size: 40px;
 }
+@media screen and (max-width: 600px) {
+  .main {
+    height: 200px;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    height: 180px;
+    width: 300px;
+    padding: 30px;
+  }
+  .input {
+    width: 140px;
+  }
+}
